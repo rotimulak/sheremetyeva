@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*background-color: #E9F0EE;*/
+    font-family: 'Helvetica Neue', san-serif;
+}
+@media screen and (max-width: 550px) {
+    body {
+        transform: scale(0.55);
+        margin-left: -130px;
+        margin-top: -160px;
+    }
+    .all {
+        background-image: none !important;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 736px) {
+    .all {
+        background-image: none !important;
+    }
+    body {
+        transform: scale(0.8);
+        margin-left: -90px;
+        margin-top: -80px;
+    }
+}
+.all {
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('images/bg.png');
+    background-repeat: repeat-x;
+    /*background-size: 20% 80%;*/
+    text-align: center;
+}
+
+.header {
+    width: 800px;
+    height: auto;
+    margin: auto;
+    /*background-color: blue;*/
+    /*display: inline-table;*/
+    /*text-align: center;*/
+}
+.headerelements {
+    display: block;
+    height: 300px;
+    background: url('images/road.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*background-color: aqua;*/
+    background-position: top 0px left 0px;
+}
+.sheremetyevafoto {
+    content: url('images/foto.jpg');
+    /*width: 262px;*/
+    /*height: 262px;*/
+    text-align: left;
+    padding: 24px 0 0 30px;
+    /*border: dotted 10px;*/
+    float: left;
+    /*display: table-column;*/
+}
+.sheremetyevaname {
+    /*position: absolute;*/
+    font-size: 55px;
+    letter-spacing: 2px;
+    text-align: right;
+    /*width: 450px;*/
+    float: right;
+    color: #66646f;
+    padding: 0 72px 0 0;
+    margin-top: 5px;
+    font-weight: bold;
+    /*display: table-column;*/
+    /*background-color: cornsilk;*/
+}
+.tel {
+    float: right;
+    padding: 5px 100px 0 0;
+    color: #223634;
+    font-size: 18px;
+}
+.mc {
+    width: 800px;
+    height: auto;
+    margin: 0 auto 0 auto;
+}
+.description {
+    float:left;
+    width: 300px;
+    margin: 0 0 0 30px;
+    padding-left: 8px;
+    text-align: left;
+    /*background-color: #333;*/
+    font-size: 22px;
+    color: #616161;
+    line-height: 1.25;
+}
+
+.shname {
+    font-size: 34px;
+    margin-bottom: 65px;
+    line-height: 1;
+    margin-top: 20px;
+    color: #646464;
+    /*font-weight: bold;*/
+    /*padding-bottom: 60px;*/
+}
+.ctadiv {
+    padding-top: 25px;
+}
+.ctaterapy {
+    padding-top: 22px;
+    color: #31d6da;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1;
+    text-decoration: none;
+}
+.ctaterapy:hover {
+    text-decoration: underline;
+}
+.annonce {
+    width: 380px;
+    float: right;
+    margin-right: 80px;
+}
+.annonceimg {
+    width: 380px;
+    height: 380px;
+    margin-top: -16px;
+    cursor: hand;
+}
+.ctatrening {
+    float: right;
+    color: #3789db;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 31px;
+    text-decoration: none;
+}
+.ctatrening:hover {
+    text-decoration: underline;
+}
+.treningpage {
+    width: 720px;
+    margin: 10px auto;
+}
